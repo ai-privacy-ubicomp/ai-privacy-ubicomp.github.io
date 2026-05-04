@@ -74,8 +74,38 @@ body {
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.05);
 }
 h2 { margin-top: 0.2rem; font-family: "IBM Plex Serif", serif; }
+h3 { margin: 0.2rem 0 0.2rem; }
 ul { padding-left: 1.2rem; }
 .grid-two { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 1rem; }
+.people-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+  gap: 1rem;
+}
+.person-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 1rem 0.8rem;
+  border: 1px solid #e2d9c8;
+  border-radius: 14px;
+  background: #fffefb;
+}
+.avatar {
+  width: 112px;
+  height: 112px;
+  object-fit: cover;
+  border-radius: 999px;
+  border: 3px solid #ffffff;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.13);
+  margin-bottom: 0.6rem;
+}
+.person-card p {
+  margin: 0;
+  color: #4b4a43;
+  font-size: 0.95rem;
+}
 .note { background: #fff3cd; border-left: 4px solid var(--accent-2); padding: 0.8rem; border-radius: 8px; }
 .table-wrap { overflow-x: auto; }
 table { width: 100%; border-collapse: collapse; }
