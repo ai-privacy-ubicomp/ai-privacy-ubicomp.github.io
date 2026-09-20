@@ -73,6 +73,32 @@ body {
   margin: 1rem auto;
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.05);
 }
+.keynote-section { margin: 2.2rem auto; scroll-margin-top: 1.5rem; }
+.keynote-section > h2 { font-size: clamp(1.6rem, 3vw, 2rem); margin: 0.3rem 0 1.2rem; }
+.keynote-list { display: grid; grid-template-columns: minmax(0, 1fr); gap: 1.2rem; }
+.keynote-card {
+  display: grid;
+  grid-template-columns: 160px minmax(0, 1fr);
+  gap: 1.8rem;
+  align-items: start;
+  padding: 1.8rem;
+  background: var(--card);
+  border: 1px solid #ddd3bf;
+  border-radius: 16px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.05);
+}
+.keynote-portrait { width: 160px; height: 184px; object-fit: cover; border-radius: 12px; }
+.keynote-portrait-kanye { object-position: 72% center; }
+.keynote-details .kicker { font-size: 0.75rem; letter-spacing: 0.12em; }
+.keynote-details h3 { font-size: 1.5rem; line-height: 1.25; margin: 0.35rem 0; }
+.keynote-affiliation { color: #5b605c; font-size: 0.9rem; margin: 0; }
+.keynote-bio { font-size: 0.95rem; margin: 1rem 0; }
+.keynote-profile { color: var(--accent); font-size: 0.9rem; font-weight: 700; text-underline-offset: 4px; }
+.keynote-profile:focus-visible { outline: 2px solid var(--accent); outline-offset: 4px; }
+@media (max-width: 640px) {
+  .keynote-card { grid-template-columns: minmax(0, 1fr); padding: 1.3rem; gap: 1.2rem; }
+  .keynote-portrait { width: 140px; height: 161px; }
+}
 .schedule-section {
   margin: 1.8rem auto;
   padding: 1.5rem 1.6rem 1.7rem;
