@@ -9,7 +9,7 @@ The NUS professor Ye Wang is a different person; no NUS portrait or biography is
 
 ## Panel speaker sources
 
-- Inseok Hwang: current affiliation cross-checked against ACM publication records in the project workspace (POSTECH); biography kept at a high level because no public profile page was available in the workspace.
+- Inseok Hwang: Google Scholar profile https://scholar.google.com/citations?hl=en&user=XNH0fY8AAAAJ (profile and portrait), with affiliation cross-checked against ACM publication records in the project workspace (POSTECH).
 - Xin Yi: current affiliations cross-checked against the workshop committee listing and ACM/CHI records in the project workspace (Tsinghua University; Beijing Academy of Artificial Intelligence); research areas summarized from the listed privacy, security, and pervasive-computing publications.
 - Anran Xu: current affiliation cross-checked against the workshop committee listing and ACM/CHI records in the project workspace (RIKEN); research areas summarized from the listed HCI, pervasive-computing, and privacy publications.
 - Joshua Newn: current affiliation cross-checked against the workshop committee listing and the public profile at https://www.joshuanewn.com/ (RMIT University); research areas summarized from the profile and listed gaze, speech, and extended-reality publications.
